@@ -43,10 +43,13 @@ function fetchAndUpdatePlayerStats(player) {
     .then(response => response.json())
     .then(data => {
         const overallStats = data.data.stats.all.overall; 
+        console.log(data);
     
         // Update the HTML elements with the overall kills and wins
         document.getElementById(`${player.username}Kills`).innerText = "Overall Kills: " + overallStats.kills;
         document.getElementById(`${player.username}Wins`).innerText = "Overall Wins: " + overallStats.wins;
+        document.getElementById(`${player.username}Kd`).innerText = "Overall KD: " + overallStats.kd;
+        document.getElementById(`${player.username}WinRate`).innerText = "Overall Win Rate: " + overallStats.winRate;
     })
     .catch(error => {
         // Handle any errors that occur during the request
