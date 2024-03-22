@@ -20,7 +20,7 @@ const players = [
     // davy
     { username: '04ad8bd9ab884b03b1c2569157ea4fa7'},
      // julio
-    // { username: 'd6a115c081764f04a1cdd585f82a23d6'},
+    { username: 'd6a115c081764f04a1cdd585f82a23d6'},
     // stem
     { username: `${stem}`},
 ];
