@@ -9,6 +9,9 @@ const john = 'a8147e78845643efb22fb4f4fb516927';
 const davy = '04ad8bd9ab884b03b1c2569157ea4fa7';
 const julio = 'd6a115c081764f04a1cdd585f82a23d6';
 const stem = '9b7b11021efe443a9632acd811b04170';
+const jeff = 'ca8f6aab6aa74c2f9f39868133d46d45'
+const leeky = '9fb3e838c785489b9c60a61e325550aa'
+const fez = '73b8d02b98fd4737a30b8dbe05d932ca'
 
 const players = [
     // tio
@@ -23,6 +26,11 @@ const players = [
     { username: 'd6a115c081764f04a1cdd585f82a23d6'},
     // stem
     { username: `${stem}`},
+    // jeff 
+    { username: `${jeff}`},
+    { username: `${leeky}`},
+    { username: `${fez}`},
+
 ];
 
 
